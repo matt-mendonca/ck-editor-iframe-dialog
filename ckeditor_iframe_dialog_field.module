@@ -1,0 +1,11 @@
+<?php
+/**
+ * Implementation of hook_ckeditor_plugin().
+ */
+function ckeditor_iframe_dialog_field_ckeditor_plugin() {
+  return array('ckeditor_iframe_dialog_field' => array(
+    'name' => 'iframedialog',
+    'desc' => t('CKEditor iFrame Dialog Field'),
+    'path' => 'sites/all/libraries/ckeditor_iframe_dialog_field/plugins/iframedialog/',
+  ));
+}

@@ -1,0 +1,7 @@
+name = "CK Editor iFrame Dialog Field"
+description = "Adds a iFrame Dialog Field to CKEditor"
+package = "User interface"
+core = 7.x
+version = 7.x-1.0-dev
+
+dependencies[] = ckeditor
